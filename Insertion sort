@@ -1,0 +1,20 @@
+void InsertSort(int a[], int n)
+{
+	int temp;
+	int i, j, k;
+
+	for (i = 1; i < LEN; i++)
+	{
+		for (j = i + 1;j<LEN; j++)
+		{
+			k = j;
+			for (j = k; a[j] < a[j - 1] && j >= 0; j--)
+			{
+				temp = a[j];
+				a[j] = a[j - 1];
+				a[j - 1] = temp;
+			}
+			j = k;
+		}
+	}
+}
