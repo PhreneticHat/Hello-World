@@ -1,4 +1,3 @@
-# Hello-World
+# SORTS
 
-Hi!
-I'm an underground of Beijing Normal University.
+Here are basic kinds of sorts
