@@ -22,5 +22,4 @@ void SelectSort(int a[], int n)
 		}
 		a[j] = max;
 	}
-	Print_Data(a, n);
 }
