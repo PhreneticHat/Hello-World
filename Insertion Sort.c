@@ -11,5 +11,4 @@ void InsertSort(int a[], int n)
 		}
 		a[j] = temp;
 	}
-	Print_Data(a, n);
 }
